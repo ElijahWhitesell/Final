@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  background-image: url(images/rock_background.jpg);
+  font-size: 135%;
+  line-height: 1.4;
+}
+
+body h2 {
+  padding-top: 1rem;
+  font-size: 150%;
+  color: #718A9E;
+  border-bottom: 2px dotted #718A9E;
+}
+
+body h3 {
+  padding-top: 1rem;
+  font-size: 125%;
+  color: #5A322A;
+}
+
+.wrapper {
+  background-color: white;
+  max-width: 1150px;
+  margin: 0 auto;
+  border: 2px solid #CCCDC7;
+  box-shadow: 2px 2px 20px black;
+}
+
+.inner {
+  padding-left: 2rem;
+}
+
+.inner li {
+  margin-left: 6rem;
+}
+
+header {
+  background-color: #BC7B6F;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 200%;
+  text-shadow: 2px 2px 10px #5A322A;
+}
+
+nav {
+  background-color: #5A322A;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+nav a {
+  color: #718A9E;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+nav a:hover {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+p {
+  padding-top: 0.25rem;
+}
+
+figure img {
+  max-width: 300px;
+}
+
+figure figcaption {
+  font-size: 75%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #5A322A;
+}
