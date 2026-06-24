@@ -34,6 +34,23 @@ body h3 {
   margin-left: 6rem;
 }
 
+.center {
+  font-size: 175%;
+  text-align: center;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: center;
+    padding: 2rem 0 0 2rem;
+}
+
+.intro img {
+  max-width: 300px;
+}
+
 header {
   background-color: #BC7B6F;
   padding: 20px;
@@ -86,4 +103,24 @@ figure figcaption {
   font-size: 75%;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #5A322A;
+}
+
+h2 a {
+  color: #718A9E;
+}
+
+h2 a:hover {
+  color: blue;
+}
+
+.double {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 2rem 2rem 0;
+}
+
+.double img {
+  width: 45%;
+  height: auto;
 }
