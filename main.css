@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   background-image: url(images/rock_background.jpg);
+  background-size: 135%;
   font-size: 135%;
   line-height: 1.4;
 }
@@ -123,4 +124,16 @@ h2 a:hover {
 .double img {
   width: 45%;
   height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 1.5rem 0 0 0;
+  background-color: #BC7B6F;
+}
+
+footer a:hover {
+  color: #5A322A;
 }
